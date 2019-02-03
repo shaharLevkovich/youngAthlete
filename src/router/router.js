@@ -9,9 +9,9 @@ const ReactRouter = () => {
     return(
         <React.Fragment>
             <Header/>
-            <Route exact path="/" component={athleteList}/>
-            <Route path="/filterAthletes" component={filterAthelets}/>
-            <Route path="/updateAthlete" component={updateAthlete}/>
+            <Route exact path="/2018-2019/dcs/dev_186" component={athleteList}/>
+            <Route path="/2018-2019/dcs/dev_186/filterAthletes" component={filterAthelets}/>
+            <Route path="/2018-2019/dcs/dev_186/updateAthlete" component={updateAthlete}/>
         </React.Fragment>
     )
 }

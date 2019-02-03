@@ -16,10 +16,10 @@ class Header extends Component {
     render() {
         return(
             <div style={this.header}>
-                <NavLink exact to="/filterAthletes" activeStyle={this.active}>
+                <NavLink exact to="/2018-2019/dcs/dev_186/filterAthletes" activeStyle={this.active}>
                 filter
                 </NavLink>
-                <NavLink to="/updateAthlete" activeStyle={this.active}>
+                <NavLink to="/2018-2019/dcs/dev_186/updateAthlete" activeStyle={this.active}>
                 update
                 </NavLink>
             </div>
